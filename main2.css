@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #ffffff;
+	position: relative;
+}
+
+/* selects links on mouse over */
+a:hover {
+	color: #d7d7d2;
+}
+
+/* Fixed Header Style */
+#top {
+	min-height: 78px;
+	z-index: 999999;
+	background: #e1e1de;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+#top img {
+	width: 150px;
+	float: left;
+	margin: 16px 0 0 24px;
+}
+
+#top span {
+	float: right;
+	font-size: 18px;
+	list-style: none;
+	margin: 15px 40px 0 0;
+	font-weight: lighter;
+	padding-top: 10px;
+}
+
+/* Sidebar Menu */
+.sidebar{ 
+	padding-top: 50px;
+    display: block;
+    box-sizing: border-box;
+    width: 15%;
+    height: 1024px;
+    background: #44c6eb;
+}
+
+li {
+	margin: 16px 0 0 24px;
+	color: #ffffff;
+	text-decoration: none;
+	list-style-type: none;
+	list-style-image: 5px 0 0 5px;
+	padding-top:10px;
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+li:hover {
+	color: #000000;
+}
+
+span {
+	display: inline-block;
+	padding-left: 5px;
+	float: right 10px;
+}
+
+#t1logo img {
+	padding-top: 15px;
+	display: inline-block;
+	width: 26px;
+}
+
+/* Main Frame Right Side Content- Home Page */
+#mainsearch {
+	display: block;
+	padding-left: 15%;
+	
+
+}
+
+#mainsearch h3 {
+	float: right;
+	padding: c
+
+}
+
+/* Google Material Design Icons (Self-Hosted) */
+i {
+	float: left -3px;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
